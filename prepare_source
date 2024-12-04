@@ -3,3 +3,4 @@ version_orig=2024.8.30+dfsg
 version="$version_orig-1"
 git_src --branch "debian/$version" https://salsa.debian.org/debian/python-certifi.git
 apply_patches
+version_suffix=gl0
